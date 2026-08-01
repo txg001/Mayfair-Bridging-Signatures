@@ -1,0 +1,103 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - img "Mayfair Bridging" [ref=e3]
+    - separator [ref=e4]
+    - paragraph [ref=e5]: Team email signatures — preview & copy
+  - main [ref=e6]:
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - heading "Paul Munford · Co-CEO" [level=2] [ref=e9]
+        - button "Copy signature" [ref=e10] [cursor=pointer]
+      - generic [ref=e11]:
+        - paragraph [ref=e12]: Paul Munford
+        - paragraph [ref=e13]: Co-CEO
+        - paragraph [ref=e14]:
+          - img "Mayfair Bridging" [ref=e15]
+        - text: T
+        - link "+44 203 907 3883" [ref=e16] [cursor=pointer]:
+          - /url: tel:+442039073883
+        - text: M
+        - link "+44 7768 010070" [ref=e17] [cursor=pointer]:
+          - /url: tel:+447768010070
+        - text: E
+        - link "paul@mayfairbridging.co.uk" [ref=e18] [cursor=pointer]:
+          - /url: mailto:paul@mayfairbridging.co.uk
+        - text: W
+        - link "mayfairbridging.co.uk" [ref=e19] [cursor=pointer]:
+          - /url: https://mayfairbridging.co.uk
+        - paragraph [ref=e20]: 16 Berkeley Street, Mayfair, London W1J 8DZ
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - heading "Freddie Munford · Origination Director" [level=2] [ref=e23]
+        - button "Copy signature" [ref=e24] [cursor=pointer]
+      - generic [ref=e25]:
+        - paragraph [ref=e26]: Freddie Munford
+        - paragraph [ref=e27]: Origination Director
+        - paragraph [ref=e28]:
+          - img "Mayfair Bridging" [ref=e29]
+        - text: T
+        - link "+44 203 907 3883" [ref=e30] [cursor=pointer]:
+          - /url: tel:+442039073883
+        - text: M
+        - link "+44 7818 518150" [ref=e31] [cursor=pointer]:
+          - /url: tel:+447818518150
+        - text: E
+        - link "freddie@mayfairbridging.co.uk" [ref=e32] [cursor=pointer]:
+          - /url: mailto:freddie@mayfairbridging.co.uk
+        - text: W
+        - link "mayfairbridging.co.uk" [ref=e33] [cursor=pointer]:
+          - /url: https://mayfairbridging.co.uk
+        - paragraph [ref=e34]: 16 Berkeley Street, Mayfair, London W1J 8DZ
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - heading "David Rundell · Co-CEO & CTO" [level=2] [ref=e37]
+        - button "Copy signature" [ref=e38] [cursor=pointer]
+      - generic [ref=e39]:
+        - paragraph [ref=e40]: David Rundell
+        - paragraph [ref=e41]: Co-CEO & CTO
+        - paragraph [ref=e42]:
+          - img "Mayfair Bridging" [ref=e43]
+        - text: T
+        - link "+44 203 907 3883" [ref=e44] [cursor=pointer]:
+          - /url: tel:+442039073883
+        - text: M
+        - link "+44 7752 602711" [ref=e45] [cursor=pointer]:
+          - /url: tel:+447752602711
+        - text: E
+        - link "david@mayfairbridging.co.uk" [ref=e46] [cursor=pointer]:
+          - /url: mailto:david@mayfairbridging.co.uk
+        - text: W
+        - link "mayfairbridging.co.uk" [ref=e47] [cursor=pointer]:
+          - /url: https://mayfairbridging.co.uk
+        - paragraph [ref=e48]: 16 Berkeley Street, Mayfair, London W1J 8DZ
+    - generic [ref=e49]:
+      - generic [ref=e50]:
+        - heading "Marie Brown · Chief Operating Officer" [level=2] [ref=e51]
+        - button "Copy signature" [ref=e52] [cursor=pointer]
+      - generic [ref=e53]:
+        - paragraph [ref=e54]: Marie Brown
+        - paragraph [ref=e55]: Chief Operating Officer
+        - paragraph [ref=e56]:
+          - img "Mayfair Bridging" [ref=e57]
+        - text: T
+        - link "+44 203 907 3883" [ref=e58] [cursor=pointer]:
+          - /url: tel:+442039073883
+        - text: M
+        - link "+44 7880 649351" [ref=e59] [cursor=pointer]:
+          - /url: tel:+447880649351
+        - text: E
+        - link "marie@mayfairbridging.co.uk" [ref=e60] [cursor=pointer]:
+          - /url: mailto:marie@mayfairbridging.co.uk
+        - text: W
+        - link "mayfairbridging.co.uk" [ref=e61] [cursor=pointer]:
+          - /url: https://mayfairbridging.co.uk
+        - paragraph [ref=e62]: 16 Berkeley Street, Mayfair, London W1J 8DZ
+  - complementary [ref=e63]:
+    - strong [ref=e64]: "To install a signature:"
+    - text: "click “Copy signature”, then paste directly into your email client's signature editor (Gmail: Settings → See all settings → Signature · Outlook: Settings → Mail → Compose and reply → Email signature · Apple Mail: Settings → Signatures). If the button doesn't work in your browser, open the individual HTML file for that person, select all, and copy."
+    - strong [ref=e65]: "Logo hosting:"
+    - text: copied signatures reference the logo at
+    - emphasis [ref=e66]: https://mayfairbridging.co.uk/email-logo.png
+    - text: — upload the
+    - emphasis [ref=e67]: email-logo.png
+    - text: file from this folder to that location (or update the URL in index.html) before the signatures go live, otherwise recipients will see a broken image.
