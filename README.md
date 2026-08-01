@@ -13,7 +13,7 @@ table layout, inline styles, no web fonts, no SVG.
 | `freddie-munford.html` | Freddie Munford — Origination Director |
 | `david-rundell.html` | David Rundell — Co-CEO & CTO |
 | `marie-brown.html` | Marie Brown — Chief Operating Officer |
-| `email-logo.png` | Logo rasterised from the SVG (1208×305, transparent) — **must be hosted, see below** |
+| `email-logo.png` | Logo rasterised from the SVG (1208×305, transparent) — local copy of the hosted file |
 | `Mayfair bridging concept 2.svg` | Source logo artwork |
 
 ## Installing a signature
@@ -25,18 +25,19 @@ table layout, inline styles, no web fonts, no SVG.
    - **Outlook**: Settings → Mail → Compose and reply → Email signature
    - **Apple Mail**: Settings → Signatures
 
-## Logo hosting (required before rollout)
+## Logo hosting
 
-Email clients cannot load images from local files, so the copied signatures
-reference the logo at:
+Email clients cannot load images from local files, so every signature
+references the logo at its hosted URL:
 
 ```
-https://mayfairbridging.co.uk/email-logo.png
+https://www.mayfairbridging.co.uk/email-logo.png
 ```
 
-Upload `email-logo.png` from this folder to that exact location on the website
-before the signatures go live. If it lives somewhere else, update the
-`HOSTED_LOGO` constant in `index.html` and the `img src` in each person's file.
+This is live. Use the `www.` form — the bare domain 301-redirects, and some
+email clients won't follow a redirect for an image. If the logo ever moves,
+update the `HOSTED_LOGO` constant in `index.html` and the `img src` in each
+person's file.
 
 The logo displays at 190×48 px but the PNG is ~4× that size, so it stays crisp
 on retina screens.
